@@ -1,0 +1,37 @@
+@import '../abstract/variaveis';
+
+#brinde {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .imagem {
+        margin: 3rem;
+        margin-left: 7rem;
+        img {
+            width: 60%;
+            padding: 3rem;
+            border: 10px double $cor-secundaria;
+        }
+    }
+    .secao-texto {
+        margin: 3rem;
+        text-align: center;
+        h3 {
+            font-size: $tamanho-texto / 1.6;
+            margin: 3rem auto;
+        }
+        h4 {
+            font-size: $tamanho-texto / 2;
+            border: 2px solid $cor-border;
+            background-color: $cor-border--morta;
+            border-radius: 7px;
+            width: 50%;
+            margin: 3rem auto;
+            padding: 1rem;
+        }
+        p {
+            font-size: $tamanho-texto / 1.5;
+            margin: 3rem 5rem;
+        }
+    }
+}
